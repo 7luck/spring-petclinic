@@ -5,7 +5,7 @@ pipeline {
     stage ("Build") {
         steps {
             sh "mvn -version"
-            sh "mvnw package"
+            sh "./mvnw package"
         }
     }
   }
